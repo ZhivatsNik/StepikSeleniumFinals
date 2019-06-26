@@ -5,4 +5,4 @@ class BasePage(object):
         self.url = url
 
     def open(self):
-        self.browser.get()
+        self.browser.get(self.url)
