@@ -14,3 +14,4 @@ class ProductPageLocators(object):
     ITEM_ADDED_TO_BASKET_MESSAGE = (
         By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
     PRODUCT_NAME = (By.CSS_SELECTOR, ".product_main h1")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert:nth-child(1)")
