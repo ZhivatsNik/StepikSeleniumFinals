@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from .locators import BasePageLocators
 from .locators import MainPageLocators
 from .locators import LoginPageLocators
-from .pages.login_page import LoginPage
+from .login_page import LoginPage
 import math
 import time
 
