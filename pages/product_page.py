@@ -1,5 +1,4 @@
 from .base_page import BasePage
-from selenium.webdriver.common.by import By
 from .locators import ProductPageLocators
 
 class ProductPage(BasePage):
@@ -25,6 +24,7 @@ class ProductPage(BasePage):
         assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \
             "Success message is presented, but should not be"
     
+    # method to chedk user is authorized
     def should_disappear_success_message(self):
         assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \
             "Success message should disappear"
